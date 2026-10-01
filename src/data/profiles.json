@@ -1,0 +1,153 @@
+{
+    "bianca":{
+        "name": "Bianca",
+        "skills": [
+            { "name": "HTML/CSS", "level": 3, "evidence": "2 years freelance" },
+            { "name": "JavaScript", "level": 3, "evidence": "Vanilla JS heavy" },
+            { "name": "React", "level": 0, "evidence": "Never used" },
+            { "name": "Git", "level": 2, "evidence": "Regular use" },
+            { "name": "SQL", "level": 2, "evidence": "Built a small DB-backed site" },
+            { "name": "Debugging", "level": 2, "evidence": "Strong vanilla JS debugging" },
+            { "name": "API integration", "level": 1, "evidence": "One tutorial project" },
+            { "name": "Testing", "level": 0, "evidence": "No evidence" },
+            { "name": "Problem-solving", "level": 2, "evidence": "Solid on smaller problems" }
+        ]
+    },
+
+    "alex" :{
+    "name": "Alex",
+    "skills": [
+        { "name": "HTML/CSS", "level": 3, "evidence": "Built 5+ responsive sites, freelance" },
+        { "name": "JavaScript", "level": 2, "evidence": "1 year, 3 personal projects" },
+        { "name": "React", "level": 2, "evidence": "2 apps in bootcamp + 1 personal" },
+        { "name": "Git", "level": 2, "evidence": "Daily use, comfortable with branches/PRs" },
+        { "name": "SQL", "level": 1, "evidence": "Intro course only" },
+        { "name": "Debugging", "level": 2, "evidence": "Regularly debugs own React apps" },
+        { "name": "API integration", "level": 2, "evidence": "Connected 2 apps to REST APIs" },
+        { "name": "Testing", "level": 0, "evidence": "No evidence" },
+        { "name": "Problem-solving", "level": 3, "evidence": "Solved complex bugs solo" }
+    ]
+},
+
+"chris": {
+    "name": "Chris",
+    "skills": [
+        { "name": "HTML/CSS", "level": 1, "evidence": "Bootcamp only" },
+        { "name": "JavaScript", "level": 1, "evidence": "Bootcamp only" },
+        { "name": "React", "level": 1, "evidence": "One tutorial-following project" },
+        { "name": "Git", "level": 1, "evidence": "Basic commit/push" },
+        { "name": "SQL", "level": 0, "evidence": "No evidence" },
+        { "name": "Debugging", "level": 1, "evidence": "Limited, mostly guided" },
+        { "name": "API integration", "level": 0, "evidence": "No evidence" },
+        { "name": "Testing", "level": 0, "evidence": "No evidence" },
+        { "name": "Problem-solving", "level": 1, "evidence": "Needs guidance" }
+    ]
+},
+
+ "dana": {
+    "name": "Dana",
+    "skills": [
+        { "name": "HTML/CSS", "level": 3, "evidence": "3 years, agency work" },
+        { "name": "JavaScript", "level": 3, "evidence": "Advanced, contributes to OSS" },
+        { "name": "React", "level": 3, "evidence": "4 production apps" },
+        { "name": "Git", "level": 3, "evidence": "Advanced workflows" },
+        { "name": "SQL", "level": 2, "evidence": "Built full-stack app w/ DB" },
+        { "name": "Debugging", "level": 3, "evidence": "Known for fixing hard bugs" },
+        { "name": "API integration", "level": 2, "evidence": "Multiple integrations" },
+        { "name": "Testing", "level": 1, "evidence": "Some unit tests" },
+        { "name": "Problem-solving", "level": 3, "evidence": "Excellent" }
+    ]
+},
+
+"evan": {
+    "name": "Evan",
+    "skills": [
+        { "name": "HTML/CSS", "level": 1, "evidence": "Self-taught, 2 small sites" },
+        { "name": "JavaScript", "level": 1, "evidence": "Self-taught, small scripts" },
+        { "name": "React", "level": 0, "evidence": "No evidence" },
+        { "name": "Git", "level": 1, "evidence": "Basic use" },
+        { "name": "SQL", "level": 0, "evidence": "No evidence" },
+        { "name": "Debugging", "level": 1, "evidence": "Basic, self-taught" },
+        { "name": "API integration", "level": 0, "evidence": "No evidence" },
+        { "name": "Testing", "level": 0, "evidence": "No evidence" },
+        { "name": "Problem-solving", "level": 1, "evidence": "Limited real-world evidence" }
+    ]
+},
+
+"tom": {
+        "name": "Tom",
+        "skills": [
+            { "name": "Playwright", "level": 2, "evidence": "Automated 10+ test suites at previous job" },
+            { "name": "JavaScript", "level": 2, "evidence": "Comfortable writing test scripts" },
+            { "name": "API Testing", "level": 1, "evidence": "Some exposure via Postman, no deep experience" },
+            { "name": "AWS", "level": 0, "evidence": "No evidence" },
+            { "name": "Git", "level": 1, "evidence": "Basic use" },
+            { "name": "SQL", "level": 0, "evidence": "No evidence" },
+            { "name": "Debugging", "level": 1, "evidence": "Basic, self-taught" },
+            { "name": "CI/CD", "level": 1, "evidence": "Set up one basic pipeline, guided" },
+            { "name": "Testing", "level": 2, "evidence": "QA-focused testing experience" },
+            { "name": "Problem-solving", "level": 1, "evidence": "Limited real-world evidence" }
+        ]
+},
+
+"jack": {
+        "name": "Jack",
+        "skills": [
+            { "name": "Playwright", "level": 2, "evidence": "Automated 10+ test suites at previous job" },
+            { "name": "JavaScript", "level": 2, "evidence": "Comfortable writing test scripts" },
+            { "name": "API Testing", "level": 2, "evidence": "Tested API via Postman" },
+            { "name": "AWS", "level": 2, "evidence": "Certified, used in recent project" },
+            { "name": "Git", "level": 2, "evidence": "Comfortable with all git commands, used in projects" },
+            { "name": "SQL", "level": 0, "evidence": "No evidence" },
+            { "name": "Debugging", "level": 2, "evidence": "Good experience" },
+            { "name": "CI/CD", "level": 3, "evidence": "Set up pipelines, works with DevOps" },
+            { "name": "Testing", "level": 2, "evidence": "QA-focused testing experience" },
+            { "name": "Problem-solving", "level": 1, "evidence": "Limited real-world evidence" }
+        ]
+    },
+    "sam": {
+        "name": "Sam",
+        "skills": [
+            { "name": "Playwright", "level": 1, "evidence": "Self-learned, no hands-on experience" },
+            { "name": "JavaScript", "level": 1, "evidence": "Entry level" },
+            { "name": "API Testing", "level": 0, "evidence": "No evidence" },
+            { "name": "AWS", "level": 0, "evidence": "No evidence" },
+            { "name": "Git", "level": 2, "evidence": "Comfortable with all git commands" },
+            { "name": "SQL", "level": 0, "evidence": "No evidence" },
+            { "name": "Debugging", "level": 2, "evidence": "Comfortable" },
+            { "name": "CI/CD", "level": 1, "evidence": "Basic knowledge" },
+            { "name": "Testing", "level": 2, "evidence": "QA-focused testing experience" },
+            { "name": "Problem-solving", "level": 1, "evidence": "Limited real-world evidence" }
+        ]
+    },
+    "jobDescriptions": {
+        "juniorWebDeveloper": {
+            "title": "Junior Web Developer",
+            "requirements": [
+                { "skillName": "HTML/CSS", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "JavaScript", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "React", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "Git", "requiredLevel": 1, "mustHave": true },
+                { "skillName": "Debugging", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "Problem-solving", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "SQL", "requiredLevel": 1, "mustHave": false },
+                { "skillName": "API integration", "requiredLevel": 1, "mustHave": false },
+                { "skillName": "Testing", "requiredLevel": 1, "mustHave": false }
+            ]
+        },
+        "qaAutomationEngineer": {
+            "title": "QA Automation Engineer",
+            "requirements": [
+                { "skillName": "Playwright", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "JavaScript", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "API Testing", "requiredLevel": 2, "mustHave": true },
+                { "skillName": "Debugging", "requiredLevel": 1, "mustHave": true },
+                { "skillName": "AWS", "requiredLevel": 2, "mustHave": false },
+                { "skillName": "Problem-solving", "requiredLevel": 2, "mustHave": false },
+                { "skillName": "SQL", "requiredLevel": 1, "mustHave": false },
+                { "skillName": "CI/CD", "requiredLevel": 1, "mustHave": true },
+                { "skillName": "Testing", "requiredLevel": 1, "mustHave": true }
+            ]
+        }
+    }
+}
