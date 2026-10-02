@@ -26,3 +26,17 @@ paths:
           description: Successful match report
         '404':
           description: Profile or job description not found
+
+  /profiles:
+    get:
+      summary: List all available candidate profiles
+      responses:
+        '200':
+          description: A list of profiles with id and name
+
+  /jobDescriptions:
+    get:
+      summary: List all available job descriptions
+      responses:
+        '200':
+          description: A list of job descriptions with key and title

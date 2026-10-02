@@ -11,6 +11,23 @@ const allProfiles = {bianca, alex, chris, dana, evan, tom, jack, sam};
 
 app.use('/api-docs',swaggerUi.serve,swaggerUi.setup(swaggerDocument));
 
+app.get('/profiles',(req,res)=>{
+
+    const profileNames = Object.keys(allProfiles).map(key=>({
+        id: allProfiles[key].id,
+        name: allProfiles[key].name 
+    }));
+    res.json(profileNames);
+});
+
+app.get('/jobDescriptions',(req,res)=>{
+    const jdList = Object.keys(jobDescriptions).map(key =>({
+        key: key,
+        title: jobDescriptions[key].title
+    }));
+    res.json(jdList);
+
+});
 
 app.get('/match/:profileName/:jdKey', (req,res)=>{
 

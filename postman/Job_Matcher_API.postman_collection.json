@@ -62,6 +62,40 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "All_Profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/profiles",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Available _JobDescriptions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/jobDescriptions",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "jobDescriptions"
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }

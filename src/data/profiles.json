@@ -1,5 +1,6 @@
 {
     "bianca":{
+        "id": 1,
         "name": "Bianca",
         "skills": [
             { "name": "HTML/CSS", "level": 3, "evidence": "2 years freelance" },
@@ -15,6 +16,7 @@
     },
 
     "alex" :{
+    "id": 2,
     "name": "Alex",
     "skills": [
         { "name": "HTML/CSS", "level": 3, "evidence": "Built 5+ responsive sites, freelance" },
@@ -30,6 +32,7 @@
 },
 
 "chris": {
+    "id": 3,
     "name": "Chris",
     "skills": [
         { "name": "HTML/CSS", "level": 1, "evidence": "Bootcamp only" },
@@ -45,6 +48,7 @@
 },
 
  "dana": {
+    "id": 4,
     "name": "Dana",
     "skills": [
         { "name": "HTML/CSS", "level": 3, "evidence": "3 years, agency work" },
@@ -60,6 +64,7 @@
 },
 
 "evan": {
+    "id": 5,
     "name": "Evan",
     "skills": [
         { "name": "HTML/CSS", "level": 1, "evidence": "Self-taught, 2 small sites" },
@@ -75,6 +80,7 @@
 },
 
 "tom": {
+        "id": 6,
         "name": "Tom",
         "skills": [
             { "name": "Playwright", "level": 2, "evidence": "Automated 10+ test suites at previous job" },
@@ -91,6 +97,7 @@
 },
 
 "jack": {
+        "id": 7,
         "name": "Jack",
         "skills": [
             { "name": "Playwright", "level": 2, "evidence": "Automated 10+ test suites at previous job" },
@@ -106,6 +113,7 @@
         ]
     },
     "sam": {
+        "id": 8,
         "name": "Sam",
         "skills": [
             { "name": "Playwright", "level": 1, "evidence": "Self-learned, no hands-on experience" },
@@ -120,6 +128,8 @@
             { "name": "Problem-solving", "level": 1, "evidence": "Limited real-world evidence" }
         ]
     },
+
+    
     "jobDescriptions": {
         "juniorWebDeveloper": {
             "title": "Junior Web Developer",
