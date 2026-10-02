@@ -1,6 +1,6 @@
-const{getStatus, matchProfile} = require("./src/matcher.js");
+const{getStatus, matchProfile} = require("../src/matcher.js");
 const assert = require("assert");
-const{bianca, chris, jobDescriptions} = require("./src/data/data.js");
+const{bianca, chris, jobDescriptions} = require("../src/data/data.js");
 
 
 console.log("** Testing the candidate level and requiredlevel logic********")
