@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "9f398c46-0748-4395-858a-8331ab97e584",
+    "name": "Job_Matcher_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50294597"
+  },
+  "item": [
+    {
+      "name": "Valid_Response",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/match/{{profileName}}/{{jdkey}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "match",
+            "{{profileName}}",
+            "{{jdkey}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid_Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/match/invalidName/{{jdkey}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "match",
+            "invalidName",
+            "{{jdkey}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid_JD",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/match/{{profileName}}/invalidJD",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "match",
+            "{{profileName}}",
+            "invalidJD"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

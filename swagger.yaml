@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  title: Job Matcher API
+  description: Matches candidate profiles against job descriptions using a skill-by-skill matrix.
+  version: 1.0.0
+
+paths:
+  /match/{profileName}/{jdKey}:
+    get:
+      summary: Get a skill match report for a candidate against a job description
+      parameters:
+        - name: profileName
+          in: path
+          required: true
+          schema:
+            type: string
+          example: bianca
+        - name: jdKey
+          in: path
+          required: true
+          schema:
+            type: string
+          example: juniorWebDeveloper
+      responses:
+        '200':
+          description: Successful match report
+        '404':
+          description: Profile or job description not found

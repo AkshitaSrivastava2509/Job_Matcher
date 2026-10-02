@@ -32,16 +32,33 @@ src/
   data/        — candidate profiles and job descriptions (JSON)
   matcher.js   — matching logic
   display.js   — formats and prints results
-main.js        — entry point, handles user input
-matcher.test.js — automated tests
+tests/
+  matcher.test.js — automated tests
+postman/       — exported Postman collection + environment
+main.js        — CLI entry point, handles terminal input
+server.js      — Express API entry point
+swagger.yaml   — OpenAPI spec for the API docs
 ```
 
 ## Sample output
 
 ![Sample match result for Bianca](image.png)
 
+## API (Express)
+
+Start the server:
+```bash
+node server.js
+```
+
+Then visit the interactive docs at `http://localhost:3000/api-docs`, or import the Postman collection from `/postman` to test the endpoint directly.
+
+Example:
+```
+GET /match/bianca/juniorWebDeveloper
+```
+
 ## What's next
 
-- Build a real HTTP API (Express)
 - Expand test coverage
 - Add a UI
